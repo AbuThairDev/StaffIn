@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/ic_notification"
+        android:title="@string/text_ic_notification"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/user_account"
+        android:icon="@drawable/ic_user_icon"
+        android:title="@string/text_ic_user_account"
+        app:showAsAction="ifRoom"/>
+</menu>
